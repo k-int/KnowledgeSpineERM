@@ -1,0 +1,66 @@
+@import url(https://www.myfonts.com/fonts/itc/stone-sans/);
+
+/* Actually prefer https://www.myfonts.com/fonts/itc/stone-sans/ to Roboto */
+/* @import url(https://fonts.googleapis.com/css?family=Roboto); */
+
+/* Login */
+
+.ce-login-box {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.ce-login-box.card {
+    border: 1px solid #ccc;
+}
+
+.ce-login-box .card-block {
+    padding: 0 20px 20px;
+}
+
+.ce-login-box li {
+    margin-bottom: 15px;
+}
+
+.ce-social-links .btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.ce-social-links .btn i {
+    margin-right: 5px;
+
+    /* Rounded Icons */
+    padding: 3px 4px;
+    border-radius: 20px;
+    width: 24px;
+    /*
+    display: inline-block;
+    border: 2px solid;
+    */
+    background-color: rgba(0,0,0,.2);
+    margin-left: -6px;
+}
+
+
+.btn-facebook,
+.btn-facebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btn-twitter,
+.btn-twitter:hover {
+    background-color: #55acee;
+    color: #fff;
+}
+
+.btn-linkedin,
+.btn-linkedin:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+

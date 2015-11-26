@@ -8,10 +8,6 @@ angular.module('myApp.auth', ['ngRoute'])
           templateUrl: 'auth/login.html',
           controller: 'LoginCtrl'
       })
-      .when('/verify/request', {
-          templateUrl: 'auth/verify-request.html',
-          controller: 'VerifyRequestCtrl'
-      })
 }])
 
 .controller('LoginCtrl', [ '$scope', '$auth', '$rootScope', '$location', '$log', 'UserService', function($scope, $auth, $rootScope, $location, $log, UserService) {
