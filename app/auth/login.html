@@ -1,0 +1,56 @@
+<div class="container kserm-login-view">
+    <h1 class="sr-only">Sign in</h1>
+    <div class="card ce-login-box">
+        <alert ng-repeat="alert in alerts" type="{{alert.type}}">{{alert.message}}</alert>
+
+        <div class="card-block">
+            <div class="row">
+                <div class="col-sm-5 ce-social-links">
+                    <h2>Social Sign in</h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <button class="btn btn-linkedin" ng-click="authenticate('linkedin')"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</button>
+                        </li>
+                        <li>
+                            <button class="btn btn-facebook" ng-click="authenticate('facebook')"><i class="fa fa-facebook fa-fw"></i> Facebook</button>
+                        </li>
+                        <li>
+                            <button class="btn btn-twitter" ng-click="authenticate('twitter')"><i class="fa fa-twitter fa-fw"></i> Twitter</button>
+                        </li>
+                        <li>
+                            <button class="btn btn-danger" ng-click="authenticate('google')"><i class="fa fa-google-plus fa-fw"></i> Google</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-7">
+                    <div class="ce-table-layout">
+                        <div style="min-width: 32px;">
+
+                            <div class="ce-or-divider">
+                                <span class="ce-hr"></span>
+                                <span class="ce-or">OR</span>
+                            </div>
+
+                        </div>
+                        <div style="width:100%">
+                            <h2>Email Sign in</h2>
+                            <div class="form-group">
+                                <input class="form-control" type="text" placeholder="Email Address">
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-primary btn-block">Sign in</button>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-7 col-md-push-5 ce-forgot-link"><a href="#">Forgot password?</a></div>
+                                <div class="col-md-5 col-md-pull-7"><a href="#">Register</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
